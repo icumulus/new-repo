@@ -2,6 +2,8 @@
 
 The new-repo project is a default template for .NET Foundation projects. It's also probably a fine start for other .NET projects (have at it, but change the license). It contains the correct license, a decent README, and initial project structure (including a standard .gitignore for the Visual Studio family of products).
 
+This fork is mostly unchanged from the original dotnet foundation version, except it has been updated slightly to more closely align with [David Fowler's recommended .NET project structure](https://gist.github.com/davidfowl/ed7564297c61fe9ab814).
+
 You can learn more about the project from the project [Documentation](Documentation).
 
 ## Using New Repo
@@ -9,6 +11,8 @@ You can learn more about the project from the project [Documentation](Documentat
 You can simply `git clone` this project to get started. It is recommended that you don't preserve history of the project (it isn't generally meaningful) for your repo, but make a copy and `git init` your project from source.
 
 Consult [CHECKLIST.md] for helpful suggestions on preparing your repo to go public.
+
+Alternatively, click the "Use this template" button above to create a new repo using this one as a template.
 
 ## Building
 
